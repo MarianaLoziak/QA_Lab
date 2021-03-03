@@ -14,19 +14,19 @@ namespace Lab2
         private int critical_count;
         private int fail_report_count;
 
-        public  int GetExc_Count()
+        public  int GetExc_Count
         {
-            return exc_count;
+            get { return exc_count; }
         }
 
-        public int GetCritical_count()
+        public int GetCritical_count
         {
-            return critical_count;
+            get { return critical_count; }
         }
 
-        public int GetFail_count()
+        public int GetFail_count
         {
-            return fail_report_count;
+           get { return fail_report_count; }
         }
 
         // ExceptionCritical передаємо через конструктор, WebServer - через властивість

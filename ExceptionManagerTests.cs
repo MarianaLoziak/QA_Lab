@@ -96,9 +96,9 @@ namespace Lab2
 
             exceptionManager.ManageException(test);
 
-            Assert.AreEqual(exceptionManager.GetFail_count(), 1);
-            Assert.AreEqual(exceptionManager.GetCritical_count(), 1);
-            Assert.AreEqual(exceptionManager.GetExc_Count(), 0);
+            Assert.AreEqual(exceptionManager.GetFail_count, 1);
+            Assert.AreEqual(exceptionManager.GetCritical_count, 1);
+            Assert.AreEqual(exceptionManager.GetExc_Count, 0);
         }
 
         [Test]
@@ -113,9 +113,9 @@ namespace Lab2
 
             exceptionManager.ManageException(test);
 
-            Assert.AreEqual(exceptionManager.GetFail_count(), 0);
-            Assert.AreEqual(exceptionManager.GetCritical_count(), 1);
-            Assert.AreEqual(exceptionManager.GetExc_Count(), 0);
+            Assert.AreEqual(exceptionManager.GetFail_count, 0);
+            Assert.AreEqual(exceptionManager.GetCritical_count, 1);
+            Assert.AreEqual(exceptionManager.GetExc_Count, 0);
         }
 
         [Test]
@@ -129,9 +129,9 @@ namespace Lab2
 
             exceptionManager.ManageException(test);
 
-            Assert.AreEqual(exceptionManager.GetFail_count(), 0);
-            Assert.AreEqual(exceptionManager.GetCritical_count(), 0);
-            Assert.AreEqual(exceptionManager.GetExc_Count(), 1);
+            Assert.AreEqual(exceptionManager.GetFail_count, 0);
+            Assert.AreEqual(exceptionManager.GetCritical_count, 0);
+            Assert.AreEqual(exceptionManager.GetExc_Count, 1);
         }
 
 
